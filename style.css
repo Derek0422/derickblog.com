@@ -1,0 +1,54 @@
+body{
+    background-image: url(img/IMG_4254.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    display: grid;
+    align-items: flex-end;
+    justify-content: end;
+    padding-top: 10rem;
+    color: white;
+    /* gap: px; */
+}
+.container h1{
+    font-size: 3rem;
+    width: 40%;
+    font-weight: bolder;
+}
+.container p{
+    font-size: 15px;
+    font-weight: 400;
+}
+.btnbb{
+    padding: 20px;
+    backdrop-filter: blur(3px);
+    width: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid white;
+    font-size: 25px;
+    border-radius: 30px;
+    
+}
+.btnbb button{
+    padding: 20px;
+    width: 30%;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    font-weight: 900;
+    background-color: black;
+    color: white;
+}
+.ion{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 2.5rem;
+    color: white;
+}
